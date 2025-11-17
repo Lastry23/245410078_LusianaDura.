@@ -70,6 +70,4 @@ Langkah - langkah dan penjelasannya sebagai berikut :
      Buat Data di Primary. Penjelasan, Buat beberapa data di server primary (misalnya, membuat tabel baru atau memasukkan data ke dalam tabel yang ada).
      Baca Data di Standby. Penjelasan,  Periksa server standby untuk memastikan bahwa data yang dibuat di server primary telah direplikasi ke server standby.
      Tes Gagal Tulis di Standby. Penjelasan, Cobalah untuk menulis data langsung ke server standby.  Replikasi yang berhasil harus mencegah penulisan langsung ke standby (read-only).
-
-Skenario Kasus yang Sempurna untuk Menguji Replikasinya: Membuat Tabel  mahasiswa  di PRIMARY, Ini adalah contoh membuat tabel untuk menguji apakah perubahan direplikasi dari primary ke standby.
  ###
